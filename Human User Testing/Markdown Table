@@ -1,0 +1,12 @@
+### Evaluation Questions and Objectives
+
+| Category | Question | Objective |
+|---------|----------|-----------|
+| **Clarity and Guidance** | **Q1:** Did the system provide clear and helpful guidance throughout your interaction? | Measure the clarity and usefulness of system prompts and responses. |
+| **Relevance of Questions** | **Q2a:** Were the questions asked during the conversation relevant to the context?<br><br>**Q2b:** Did the questions help you think more deeply or provide useful ideas? | **Q2a Objective:** Determine how closely the system's questions align with the user's specific problem or scenario.<br><br>**Q2b Objective:** Evaluate whether the questions encouraged deeper thinking and generated meaningful insights. |
+| **Effectiveness of Summary** | **Q3:** Did the summary cover all the important points and give a clear overview? | Assess how well the summary captures key details and provides a clear, comprehensive overview of the conversation. |
+| **Ease of Interaction** | **Q4:** Was it easy and straightforward to use the system during your conversation? | Check how easy and simple it was to use the system and interact with it. |
+| **Overall Satisfaction** | **Q5:** How satisfied were you with the overall experience of your interaction? | Measure the user’s overall satisfaction with the system, considering all aspects of their interaction. |
+| **General Feedback (Optional)** | **Q6:** Provide any additional feedback on your experience (text input 50–100 words). | Gather open-ended feedback to identify any issues, suggestions, or insights not covered by previous questions. |
+
+**Note:** Q1–Q5 are rated on a scale of **1 to 5**, where **5 = excellent** and **1 = poor**.
