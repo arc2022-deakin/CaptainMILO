@@ -1,0 +1,7 @@
+huggingface_hub
+gradio>=3.23.0
+autogen
+OpenAI
+transformers
+torch
+flaml[automl]
