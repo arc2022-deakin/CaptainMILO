@@ -1979,3 +1979,28 @@ shift_daysoff_node.add_child(constraints_2_node)
 
 # Attach days-off model to MILP root
 root_milp.add_child(shift_daysoff_node)
+
+
+###############################################################################
+# AUTO-FIX PARENT POINTERS (IMPORTANT)
+###############################################################################
+
+def fix_parents(root):
+    """
+    Recursively walk the tree and fix missing parent pointers.
+    This ensures beam search and node paths always work.
+    """
+    stack = [root]
+    root.parent = None  # root has no parent
+
+    while stack:
+        node = stack.pop()
+        for child in node.children:
+            # Fix parent if missing
+            if getattr(child, "parent", None) is None:
+                child.parent = node
+            stack.append(child)
+
+
+# IMPORTANT: Make sure all parent links are correct
+fix_parents(root_milp)
