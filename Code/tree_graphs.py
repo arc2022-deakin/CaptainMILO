@@ -2,8 +2,10 @@ class GraphNode:
     def __init__(self, value):
         self.value = value
         self.children = []
+        self.parent = None
 
     def add_child(self, child_node):
+        child_node.parent = self
         self.children.append(child_node)
 
 root_milp = GraphNode("MILP")
