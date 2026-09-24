@@ -1,5 +1,7 @@
 # CaptainMILO: AI-Assisted MILP Formulation with Knowledge Graphs
 
+![GitHub License](https://img.shields.io/badge/license-Apache%202.0-blue.svg) 
+
 ### 📄 Published Paper
 
 **From Informal Descriptions to Formal MILP Models Through a Multi-Agent Approach with Structured Knowledge Integration**
