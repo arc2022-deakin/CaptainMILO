@@ -1,5 +1,23 @@
 # CaptainMILO: AI-Assisted MILP Formulation with Knowledge Graphs
 
+### 📄 Published Paper
+
+**From Informal Descriptions to Formal MILP Models Through a Multi-Agent Approach with Structured Knowledge Integration**
+
+Published in the **PAKDD 2026 – 30th Pacific-Asia Conference on Knowledge Discovery and Data Mining**, as part of the *Lecture Notes in Computer Science* series (Vol. 16599), Springer.
+
+🔗 <a href="https://link.springer.com/chapter/10.1007/978-981-92-1465-5_21" target="_blank">Read the Published Paper on Springer ↗</a>
+
+**DOI:** <a href="https://doi.org/10.1007/978-981-92-1465-5_21" target="_blank">10.1007/978-981-92-1465-5_21</a>
+
+**Published:** 09 June 2026  
+**Pages:** 265–277  
+**Publisher:** Springer, Singapore
+
+**Authors:** Jyotheesh Gaddam, Qingyang Li, Lele Zhang, Bahadorreza Ofoghi, Diego Molla-Aliod
+
+---
+
 CaptainMILO is an AI-powered multi-agent system designed to help engineers, analysts, and non-experts formulate Mixed-Integer Linear Programming (MILP) models from natural language descriptions.
 
 Instead of manually writing constraints and objectives, users describe their optimisation scenario in plain language. CaptainMILO then guides a structured conversation, progressively constructing a well-formed MILP model using MILOG knowledge graphs and a graph-aware beam search engine.
@@ -131,3 +149,21 @@ CaptainMILO/
 │   └── Evaluation input files
 └── README.md
 ```
+
+---
+## 📜 Citation
+
+If you use this work in your research, please cite:
+
+```bibtex
+@inproceedings{Gaddam2026CaptainMILO,
+  author    = {Jyotheesh Gaddam and Qingyang Li and Lele Zhang and Bahadorreza Ofoghi and Diego Molla-Aliod},
+  title     = {From Informal Descriptions to Formal MILP Models Through a Multi-Agent Approach with Structured Knowledge Integration},
+  booktitle = {Advances in Knowledge Discovery and Data Mining},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {16599},
+  pages     = {265--277},
+  year      = {2026},
+  publisher = {Springer},
+  doi       = {10.1007/978-981-92-1465-5_21}
+}
